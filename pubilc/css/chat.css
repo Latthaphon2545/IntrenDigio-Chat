@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    max-width: 50%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+.chatContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 10vw;
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+/* Room title styles */
+.room-title {
+    margin-top: 0;
+    /* Remove default margin for h2 */
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    /* Light gray background */
+    color: #333;
+    /* Darker text color */
+}
+
+.list-title {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #4e504f;
+}
+
+.users {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.users li {
+    padding: 5px 10px;
+    cursor: default;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.users li:last-child {
+    border-bottom: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+#messages {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    height: 80vh;
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+#messages::-webkit-scrollbar {
+    display: none;
+}
+
+#messages div {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.message-sent {
+    background-color: #ddd;
+}
+
+.message-received {
+    background-color: #f5f5f5;
+}
+
+form {
+    display: flex;
+    margin-top: 10px;
+}
+
+form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+form button:disabled {
+    background-color: #ccc;
+    cursor: default;
+}
+
+#location {
+    background-color: #3f51b5;
+    color: white;
+    cursor: pointer;
+}
+
+#location:disabled {
+    background-color: #ccc;
+    cursor: default;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.message span{
+    display: flex;
+    flex-direction: row;
+}
+
+.message p span {
+    color: #4e504f;
+    font-size: small;
+}
+

@@ -1,0 +1,65 @@
+/* Overall structure */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar{
+    padding: 30px;
+    background-color: white;
+}
+
+.certered-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+h1 {
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #6c6a6a;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    /* Green color for join button */
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    /* Spacing after form elements */
+}
+
+form button:hover {
+    background-color: #3e8e41;
+    /* Darker green on hover */
+}
